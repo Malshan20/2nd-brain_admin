@@ -102,10 +102,8 @@ export function SubscriptionEditForm({ profile, onSuccess, onCancel }: Subscript
               <SelectValue placeholder="Select tier" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="free">Free</SelectItem>
-              <SelectItem value="basic">Basic</SelectItem>
-              <SelectItem value="premium">Premium</SelectItem>
-              <SelectItem value="pro">Pro</SelectItem>
+              <SelectItem value="starter">Starter</SelectItem>
+              <SelectItem value="pro brain">Pro Brain</SelectItem>
             </SelectContent>
           </Select>
         </div>
